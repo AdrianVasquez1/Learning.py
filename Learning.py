@@ -17,3 +17,5 @@ print("Now I will count the eggs", 7)
 print(3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6)
 # Solves a greater than less than equation
 print(3 + 2 < 5 - 7)
+print("I will now count my chicks and geese")
+print(50 - 25 + 5 - 10)
