@@ -21,13 +21,13 @@ print("I will now count my chicks and geese")
 print(50.0 - 25.0 + 5.0 - 10.0)
 
 # Variables and some of their powers
-cars = 100
-space_in_a_car = 4.0
-drivers = 30
-passengers = 90
+cars = 80
+spaceInACar = 4.0
+drivers = 45
+passengers = 115
 cars_not_driven = cars - drivers
 cars_driven = drivers
-carpool_capacity = space_in_a_car * cars_driven
+carpool_capacity = spaceInACar * cars_driven
 average_passengers_per_car = passengers / cars_driven
 
 print("There are", cars, "cars available.")
