@@ -36,3 +36,30 @@ print("There will be", cars_not_driven, "empty cars today.")
 print("We can transport", carpool_capacity, "people today.")
 print("We have", passengers, "to carpool today.")
 print("We need to put approximately", average_passengers_per_car, "in each car.")
+
+# a story using variables
+teams = 10
+number_of_games = 100
+games_per_team = number_of_games / teams
+player_to_a_team = 9
+players = 120
+players_that_can_play = teams * player_to_a_team
+players_who_cannot_play = players - players_that_can_play
+
+
+print("There are", teams, "teams available.")
+print("There will be", players_who_cannot_play, "who will not make a team.")
+print("There will be", players_that_can_play, "as a whole.")
+print("")
+
+# More variables and playing with output
+myName = "Adrian Vasquez"
+myAge = "17"
+myHeight = 60 # inches
+myEyes = "brown"
+myHair = "black"
+
+print("Let's talk about %s." % myName)
+print("He's %d inches tall." % myHeight)
+print("He's got %s eyes amd %s hair." % (myEyes, myHair))
+print("add %d and %d, I get %d" % (myAge, myHeight, myAge+myHeight))
